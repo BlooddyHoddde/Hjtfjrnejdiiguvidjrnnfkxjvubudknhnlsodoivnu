@@ -322,12 +322,12 @@ client.user.setAvatar(argresult);
 
 
 if (message.content.startsWith(prefix + 'watching')) {
-if (message.author.id !== '439393453332234243') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '299899582211555329') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
  client.user.setActivity(argresult, {type : 'watching'});
 message.channel.sendMessage(`**${argresult}** : تم تغيير الووتشينق الى`)
 }
 if (message.content.startsWith(prefix + 'setl')) {
-if (message.author.id !== '439393453332234243') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '299899582211555329') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 client.user.setActivity(argresult, {type : 'listening'});
 message.channel.sendMessage(`**${argresult}**: تم تغير الاستماع الي`)
 }
